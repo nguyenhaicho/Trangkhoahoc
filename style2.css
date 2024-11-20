@@ -1,0 +1,38 @@
+.a{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display:flex;
+    gap: 30px;
+    font-size:20px
+    
+}
+.button{
+    padding: 10px; /* Adequate padding for readability */
+    font-size: 16px; /* Clear readable text */
+    font-weight: 600; /* Slightly bold for emphasis */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    border: none; /* No border for a cleaner design */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition for effects */
+    background-color: #007bff; /* Professional blue color */
+    color: white; /* White text for contrast */
+    text-align: center; /* Centered text */
+    text-transform: uppercase; /* Capitalized text for a neat look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */  
+}
+.button:hover{
+    background-color: #0056b3; /* Darker blue for hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+.button:focus{
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 4px rgba(38, 143, 255, 0.6); /* Focus ring for accessibility */
+}
+.project{
+    
+    text-align: center;
+}
